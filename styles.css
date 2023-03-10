@@ -1,0 +1,26 @@
+.window {
+    box-sizing: border-box;
+    width: auto;
+    border: solid black 2px;
+    padding: 5px;
+    background-color: lightgray;
+}
+img {
+    border: solid black;
+}
+.kernelpanic {
+    border: solid black;
+    width: 5em;
+    height: 5em;
+}
+.errortext {
+    border: solid black;
+    width: 5em;
+    height: 5em;
+}
+.button {
+    border: solid black;
+    width: 5em;
+    height: 5em;
+
+}

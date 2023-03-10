@@ -1,26 +1,25 @@
+body {
+    padding: auto;
+}
 .window {
     box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
     width: auto;
     border: solid black 2px;
-    padding: 5px;
     background-color: lightgray;
-}
-img {
-    border: solid black;
 }
 .kernelpanic {
     border: solid black;
     width: 5em;
-    height: 5em;
 }
-.errortext {
+.errorpictureandimage {
+    display: flex;
     border: solid black;
-    width: 5em;
-    height: 5em;
+    align-self: center;
 }
 .button {
     border: solid black;
     width: 5em;
-    height: 5em;
-
+    align-self: flex-end;
 }
